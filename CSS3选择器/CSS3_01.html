@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        [id*=div]{/*字符存在即可*/
+            color: burlywood;
+        }
+
+        [id^=div]{/*首字符*/
+            color: cornflowerblue;
+        }
+
+        [id$=y]{ /*结束字符*/
+            color: cyan;
+        }
+    </style>
+</head>
+<body>
+    <div id="mydiv1">示例文本1</div>
+    <div id="div2">示例文本2</div>
+    <div id="div3">示例文本3</div>
+    <div id="div4">示例文本4</div>
+    <div id="my">示例文本5</div>
+</body>
+</html>
