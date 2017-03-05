@@ -1,0 +1,5 @@
+1.在CSS3的选择器中，除了结构性伪类选择器外，还有一种UI元素状态伪类选择器。这些选择器的共同特征是：指定的样式只有当元素处于某种状态
+下时才起作用，在默认状态下不起作用。
+在CSS3中，共有17种UI元素状态伪类选择器，分别是：
+    E:hover E:active E:focus E:disabled E:read-only E:checked E:default E:indeterminate E:selection E:invalid
+    E:valid E:required E:optional E:in-range
