@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--root(将样式绑定在页面的根元素中【位于文档中最顶层的元素】)-->
+    <style>
+        :root{
+            background-color:#eeeeef;
+        }/*如果使用的root，body将只给内容区域添加样式*/
+        body{
+            background-color: chartreuse;
+        }
+        /*not排除某些元素的样式显示*/
+        div *:not(h1){
+            color: cornflowerblue;
+        }
+        /*empty(指定当前元素中，内容为空白时使用的样式)*/
+        :empty{background-color: turquoise}
+        /*target(对页面中某个target元素指定样式)*/
+        :target{
+            background-color: darkorange;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>？你好吗</h2>
+        <h1>这里是标题</h1>
+        <p>这里是一个p标签</p>
+    </div>
+    <table border="1">
+        <tr>
+            <td>内容1</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>内容2</td>
+        </tr>
+    </table>
+    <br>
+    <a href="#a1">菜单1</a>|
+    <a href="#a2">菜单2</a>|
+    <a href="#a3">菜单3</a>|
+    <a href="#a4">菜单4</a>|
+    <div id="a1">
+        <h1>菜单1</h1>
+        <p>菜单1内容</p>
+    </div>
+    <div id="a2">
+        <h1>菜单1</h1>
+        <p>菜单1内容</p>
+    </div>
+    <div id="a3">
+        <h1>菜单1</h1>
+        <p>菜单1内容</p>
+    </div>
+    <div id="a4">
+        <h1>菜单1</h1>
+        <p>菜单1内容</p>
+    </div>
+
+</body>
+</html>
