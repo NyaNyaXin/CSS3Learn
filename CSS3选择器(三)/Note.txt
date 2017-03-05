@@ -3,3 +3,4 @@
 在CSS3中，共有17种UI元素状态伪类选择器，分别是：
     E:hover E:active E:focus E:disabled E:read-only E:checked E:default E:indeterminate E:selection E:invalid
     E:valid E:required E:optional E:in-range
+2.关于选择器，最后一个介绍的是通用兄弟选择器，它用来指定位于同一个父元素之中的某个元素之后的所有其他某个种类的兄弟元素所使用样式
