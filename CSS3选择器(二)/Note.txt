@@ -1,0 +1,2 @@
+1.利用first-child，last-child,nth-child和nth-last-child能够特别针对一个父元素中的第一个子元素，最后一个子元素，指定序号的子元素
+，甚至第偶数个或第奇数个子元素进行样式的指定
